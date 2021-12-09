@@ -1,0 +1,91 @@
+body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: 'Pangolin',cursive;
+        color: #B45309;
+        background-color: #fdcf55;
+        margin: 0px;
+        background-image: url(https://www.netsafe.org.nz/wp-content/uploads/2020/02/sending-nudes-parents_202010.jpg);
+    }
+
+
+    .header{
+        text-align: center;
+        font-weight: bolder;
+        height: 145px;
+        background-color: #fdcf55;
+        color: white;
+        font-size: 30px;
+        margin-bottom: 30px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+      }
+      
+      .main-heading{
+         padding: 50px;
+         letter-spacing: 1.5rem;
+      }
+
+  .footer{
+    box-sizing: border-box;
+    
+    border: 2px solid black;
+    margin-bottom: 0rem;
+    background-color: #fdcf55;
+    color: white;
+    height: 100%; 
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+
+
+.footer-heading{
+    text-align: center;
+    font-size: larger;
+}
+
+textarea{
+    width: auto;
+    height: 142px;
+    margin: 10px 185px;
+    border-radius: 9px;
+}
+#clicked{
+    width: auto;
+    height: 50px;
+    background: #fdcf55;
+    color: white;
+    font-family: 'Pangolin', cursive;
+    font-size: 1rem;
+    display: block;
+    padding: auto;
+    margin: 20px auto;
+    border-style: none;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: 1s;
+    cursor: pointer;
+
+
+}
+.content{
+    box-sizing: border-box;
+    box-shadow: yellow;
+    padding: 20px;
+}
+.text-area{
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 110px;
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+ 
+ }
+
